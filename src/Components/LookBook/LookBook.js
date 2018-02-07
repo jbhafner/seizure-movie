@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Document, Page } from 'react-pdf';
-import lookBook from "./SeizureLookBook_2017-07-26_compressed.pdf";
+import lookBook from './SeizureLookBook_2017-07-26_compressed.pdf';
+import './LookBook.css';
 
 class LookBook extends Component {
 
