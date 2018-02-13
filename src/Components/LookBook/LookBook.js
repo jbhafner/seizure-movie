@@ -18,7 +18,7 @@ class LookBook extends Component {
 		const { pageNumber, numPages } = this.state;
 
 		return(
-			<div>
+			<div className="lookbook">
 				<Document 
 					file={lookBook}
 					onLoadSuccess={this.onDocumentLoad}					
